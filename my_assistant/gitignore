@@ -1,0 +1,65 @@
+# =========================
+# Python
+# =========================
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Audio / Generated Files
+# =========================
+
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
